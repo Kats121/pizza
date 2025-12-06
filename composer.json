@@ -1,0 +1,16 @@
+{
+  "require": {
+    "pizza_library": "*"
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "pizza_library"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "MyApp\\": "src/pizza_library"
+    }
+  }
+}
