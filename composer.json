@@ -1,16 +1,18 @@
 {
   "require": {
-    "pizza_library": "*"
+    "myvendor/lib": "*"
   },
   "repositories": [
     {
       "type": "path",
-      "url": "pizza_library"
+      "url": "../../Lib"
     }
   ],
-  "autoload": {
+ "autoload": {
     "psr-4": {
-      "MyApp\\": "src/pizza_library"
+      "Pizza\\": "src/PIZZA/"
     }
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }

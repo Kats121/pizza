@@ -1,5 +1,5 @@
 <?php
-namespace PizzaLib;
+namespace Lib;
 
 class Margarita extends Pizza {
     public function __construct() {
