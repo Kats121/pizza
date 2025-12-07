@@ -10,7 +10,7 @@
   ],
  "autoload": {
     "psr-4": {
-      "Pizza\\": "src/PIZZA/"
+      "Pizza\\": "src/"
     }
   },
   "minimum-stability": "dev",
