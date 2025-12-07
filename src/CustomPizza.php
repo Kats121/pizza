@@ -2,10 +2,10 @@
 namespace PizzaLib;
 
 
-class CustomPizzaStore extends PizzaStore {
-    protected function createPizza($type) {
+class CustomPizza extends PizzaStore {
+    protected function createPizza(string $type): ?Pizza {
         switch (strtolower($type)) {
-            case 'margherita':
+            case 'margarita':
                 return new MargaritaPizza();
             case 'pepperoni':
                 return new PepperoniPizza();
