@@ -1,6 +1,6 @@
 <?php
 namespace Lib;
-class CustomPizza extends pizzaStore {
+class сustomPizza extends pizzaStore {
     protected function createPizza(string $type) {
         switch (strtolower($type)) {
             case 'margarita':
